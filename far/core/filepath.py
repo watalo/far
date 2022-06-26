@@ -8,8 +8,7 @@
 @Contact :   watalo@163.com
 '''
 
+# 正确写法参见'conf/settings.py'
 import os
-
 report_db = '../bin/db/report_db.sql'
-
 print(report_db)

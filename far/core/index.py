@@ -34,5 +34,9 @@ class Main():
    def __init__():
        pass
 
+
+def run():
+   print('todo')
+   
 if __name__ == '__main__':
    pass

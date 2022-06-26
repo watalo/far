@@ -7,13 +7,12 @@
 @VERSION	:0.0.x
 '''
 
-import json
-import pickle
-import os
+import sys, os
 
-temple_path = os.getcwd()
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(BASE_DIR)
 
-print(temple_path)
+from core import index
 
 if __name__ == '__main__':
-    pass
+    index.run()

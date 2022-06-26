@@ -9,12 +9,16 @@
 '''
 
 import os
+
+# 这个写法很好，把所有需要调用的数据路径全部进行一次性配置
 BASE_DIR=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DB_PATH=os.path.join(BASE_DIR,'db','financial_statements.db')
 TMP_PATH=os.path.join(BASE_DIR,'db','temple_of_report.json')
+INPUT_DIR=os.path.join(BASE_DIR,'bin','input')
+OUTPUT_DIR=os.path.join(BASE_DIR,'bin','output')
 LOG_PATH=os.path.join(BASE_DIR,'log','access.log')
 
-# print(BASE_DIR)
+# print(OUTPUT_DIR)
 
 """
 logging配置
