@@ -7,12 +7,13 @@
 @VERSION	:0.0.x
 '''
 
-class CCC:
-    def __init__(self):
-        pass
+import json
+import pickle
+import os
 
-def Func():
-    pass
+temple_path = os.getcwd()
 
+print(temple_path)
 
 if __name__ == '__main__':
+    pass
