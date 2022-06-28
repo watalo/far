@@ -17,17 +17,23 @@ This document records all the text types that need to be used.
     
 2.脚本关联关系
     (1)被main引用
-        from temple import *
-    (2)引用filepath
+        from template import *
+    (2)引用resourcepath
 
 '''
 
+def load(template_text, template_var):
+    """
+    装载模板的文本和对应的参数集合
+    """
+    pass
 
-
-from conf import settings
-
-
-print(settings.TMP_PATH)
+def type_fstime():
+    """
+    识别财务报表的期限类型
+    """
+    pass
+    
 
 
 # class Title():

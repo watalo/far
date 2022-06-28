@@ -9,6 +9,9 @@
 '''
 
 # here put the import lib
+import os
+from .template import *
+
 
 
 # 读取原始数据文件
@@ -36,7 +39,7 @@ class Main():
 
 
 def run():
-   print('todo')
+   print('test sucesses')
    
 if __name__ == '__main__':
    pass

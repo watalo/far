@@ -12,7 +12,10 @@ import sys, os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
 
-from core import index
+from far import main
+
 
 if __name__ == '__main__':
-    index.run()
+    # main.run()
+    print(BASE_DIR)
+    main.run()
