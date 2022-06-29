@@ -15,4 +15,9 @@ def Func():
 
 
 if __name__ == '__main__':
-    pass
+    list = ['前2年d', '前1年d', '当期d']
+    for index,i in enumerate(list):
+        print(index, i)
+
+    
+   
