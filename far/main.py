@@ -11,6 +11,7 @@
 # here put the import lib
 import os
 from .template import *
+from .dataio import *
 
 
 
@@ -21,16 +22,19 @@ from .template import *
 # 调用input模块处理数据CSV-->db 或者其他东西
 
 
-
 # 原始数据录入后进行完整的财务分析处理过程
 
 
-
-# 按固定模版把数据填到分析报告中
-
+# 按固定模版把数据填到分析报告中并保存为.docx文件
 
 
-def Func():
+
+
+
+def run():
+   format_fs_data()
+   
+   
    pass
 
 class Main():

@@ -13,13 +13,12 @@ import os
 # 各种资源的路径
 # 这个写法很好，把所有需要调用的数据路径全部进行一次性配置
 BASE_DIR=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DB_PATH=os.path.join(BASE_DIR,'far/db','financial_statements.db')
-TMP_PATH=os.path.join(BASE_DIR,'far/db','template_of_report.json')
+DB_PATH=os.path.join(BASE_DIR,'far','db','financial_statements.db')
+TMP_PATH=os.path.join(BASE_DIR,'far','db','template_of_report.json')
 INPUT_DIR=os.path.join(BASE_DIR,'bin','input')
 OUTPUT_DIR=os.path.join(BASE_DIR,'bin','output')
 LOG_PATH=os.path.join(BASE_DIR,'log','access.log')
 
-print(OUTPUT_DIR)
 
 """
 logging配置
