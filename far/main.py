@@ -11,7 +11,7 @@
 # here put the import lib
 import os
 from .template import *
-from .dataio import *
+from .core import *
 
 
 
